@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 
 const Layout = () => {
   return (
@@ -7,18 +7,17 @@ const Layout = () => {
         <h2 className='text-4xl font-black text-center text-white'>CRM - Clientes</h2>
 
         <nav className='mt-10'>
-          <a href="/clientes"
+          <Link to="/clientes"
             className='text-white text-2xl block mt-2 hover:text-blue-300'            
-          >Clientes</a>
-          <a href="/clientes/nuevo"
+          >Clientes</Link>
+          <Link to="/clientes/nuevo"
             className='text-white text-2xl block mt-2 hover:text-blue-300'
-          >Nuevo Cliente</a>
+          >Nuevo Cliente</Link>
         </nav>
       </div>
       <div className="md:w-3/4">
         <Outlet />
-      </div>
-      
+      </div>      
     </div>
   )
 }
