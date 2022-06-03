@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "Everth",
+      "empresa": "PA",
+      "email": "correo@correo.com",
+      "telefono": "83776604",
+      "notas": "Cliente solicita atención",
+      "id": 1
+    }
+  ]
+}

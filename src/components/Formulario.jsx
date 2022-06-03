@@ -19,11 +19,26 @@ const Formulario = () => {
         telefono: Yup.number()
                     .positive('Número no válido')
                     .integer('Número no válido')
-                    .typeError('El número no es válido')
+                    .typeError('El número no es válido'),
     })
 
-    const handleSubmit = (valores) => {
-        console.log(valores)
+    const handleSubmit = async (valores) => {
+        try {
+            const url = 'http://localhost:4000/clientes'
+            
+            const respuesta = await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(valores),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            console.log(respuesta)
+            const resultado = await respuesta.json()
+            console.log(resultado)
+        } catch (error) {
+            console.log(error)
+        }
     }
   return (
     <div className='bg-white mt-10 px-5 py-10 rounded-md shadow-md md:w-3/4 mx-auto'>
