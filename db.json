@@ -7,6 +7,30 @@
       "telefono": "83776604",
       "notas": "Cliente solicita atención",
       "id": 1
+    },
+    {
+      "nombre": "Wendy",
+      "empresa": "FPA",
+      "email": "correo2@correo.com",
+      "telefono": "83776603",
+      "notas": "Prueba",
+      "id": 2
+    },
+    {
+      "nombre": "Mario",
+      "empresa": "PAF",
+      "email": "correo3@correo.com",
+      "telefono": "3234232423",
+      "notas": "TEst",
+      "id": 3
+    },
+    {
+      "nombre": "Karen",
+      "empresa": "PAF",
+      "email": "correo@correo.com",
+      "telefono": "34324234",
+      "notas": "Test",
+      "id": 4
     }
   ]
 }
