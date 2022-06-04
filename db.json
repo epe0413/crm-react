@@ -39,6 +39,14 @@
       "telefono": "342342",
       "notas": "Testrw",
       "id": 5
+    },
+    {
+      "nombre": "Marcos Diaz",
+      "empresa": "su empresa s.a.",
+      "email": "empresa@correo.com",
+      "telefono": "84933424",
+      "notas": "Datos de prueba",
+      "id": 6
     }
   ]
 }
