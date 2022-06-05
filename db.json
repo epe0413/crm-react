@@ -1,11 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "Everth",
-      "empresa": "PA",
+      "nombre": "Everth Imael Paredes",
+      "empresa": "Familia PA",
       "email": "correo@correo.com",
       "telefono": "83776604",
-      "notas": "Cliente solicita atención",
+      "notas": "Cliente solicita atención test",
       "id": 1
     },
     {
@@ -55,6 +55,14 @@
       "telefono": "76783838",
       "notas": "",
       "id": 7
+    },
+    {
+      "nombre": "Felipe Actualizado",
+      "empresa": "CJT",
+      "email": "correo@cjt.com",
+      "telefono": "32432342",
+      "notas": "test",
+      "id": 8
     }
   ]
 }
