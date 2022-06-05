@@ -47,6 +47,14 @@
       "telefono": "84933424",
       "notas": "Datos de prueba",
       "id": 6
+    },
+    {
+      "nombre": "Carolina Martinez",
+      "empresa": "Nayls Uñas",
+      "email": "nails@correo.com",
+      "telefono": "76783838",
+      "notas": "",
+      "id": 7
     }
   ]
 }
