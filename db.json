@@ -17,14 +17,6 @@
       "id": 2
     },
     {
-      "nombre": "Mario",
-      "empresa": "PAF",
-      "email": "correo3@correo.com",
-      "telefono": "3234232423",
-      "notas": "TEst",
-      "id": 3
-    },
-    {
       "nombre": "Karen",
       "empresa": "PAF",
       "email": "correo@correo.com",
@@ -41,28 +33,12 @@
       "id": 5
     },
     {
-      "nombre": "Marcos Diaz",
-      "empresa": "su empresa s.a.",
-      "email": "empresa@correo.com",
-      "telefono": "84933424",
-      "notas": "Datos de prueba",
-      "id": 6
-    },
-    {
       "nombre": "Carolina Martinez",
       "empresa": "Nayls Uñas",
       "email": "nails@correo.com",
       "telefono": "76783838",
       "notas": "",
       "id": 7
-    },
-    {
-      "nombre": "Felipe Actualizado",
-      "empresa": "CJT",
-      "email": "correo@cjt.com",
-      "telefono": "32432342",
-      "notas": "test",
-      "id": 8
     }
   ]
 }
