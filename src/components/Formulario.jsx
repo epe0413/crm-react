@@ -5,7 +5,7 @@ import * as Yup from 'yup'
 
 import Alerta from './Alerta'
 
-const Formulario = () => {
+const Formulario = ({cliente}) => {
 
     const navigate = useNavigate()
 
